@@ -35,11 +35,11 @@ const features = [
 
 const problemStatements = [
   {
-    title: "Technological Gap",
-    description: "The bus industry lags behind in digital transformation, missing opportunities for efficiency and innovation.",
+    title: "Manual Ticketing Issues",
+    description: "Traditional paper ticketing is slow, error-prone, and leads to revenue leakage.",
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
       </svg>
     )
   },
@@ -531,8 +531,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             {/* Email Card */}
-            <a 
-              href="mailto:info@bus3.in" 
+            <div 
               className="bg-black/40 rounded-lg p-8 border border-white/20 hover:border-white/50 transition-colors duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
@@ -547,16 +546,15 @@ export default function Home() {
                 </div>
               </div>
               <a 
-                href="mailto:info@bus3.in" 
+                href="mailto:sales@bus3.in" 
                 className="text-white hover:text-gray-300 font-medium text-lg block mt-2"
               >
-                info@bus3.in
+                sales@bus3.in
               </a>
-            </a>
+            </div>
 
             {/* Phone Card */}
-            <a 
-              href="tel:+919567296056" 
+            <div 
               className="bg-black/40 rounded-lg p-8 border border-white/20 hover:border-white/50 transition-colors duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
@@ -571,12 +569,12 @@ export default function Home() {
                 </div>
               </div>
               <a 
-                href="tel:+919567296056" 
+                href="tel:+919876543210" 
                 className="text-white hover:text-gray-300 font-medium text-lg block mt-2"
               >
-                +91 95672 96056
+                +91 98765 43210
               </a>
-            </a>
+            </div>
           </div>
         </div>
       </section>
